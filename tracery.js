@@ -10,7 +10,7 @@
     module.exports = factory();
   } else {
     // Browser globals (root is window)
-    root.returnExports = factory();
+    root.tracery = factory();
   }
 }(this, function () {
   var tracery = (function () {
